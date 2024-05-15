@@ -1,0 +1,33 @@
+site_name: Trevor James Nangosha
+site_url: https://trevor-james-nangosha.github.io
+copyright: Copyright &copy; 2024 Trevor James Nangosha
+theme:
+    name: material
+    logo: https://avatars.githubusercontent.com/u/75243400?s=400&u=a13b46fb04fe5960e72f9b1fbb5eb735e0f4a1fb&v=4
+    favicon: https://avatars.githubusercontent.com/u/75243400?s=400&u=a13b46fb04fe5960e72f9b1fbb5eb735e0f4a1fb&v=4
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.instant
+        - navigation.indexes
+plugins:
+    - blog
+markdown_extensions: 
+    - meta
+extra:
+    social:
+        - icon: fontawesome/brands/github 
+          link: https://github.com/trevor-james-nangosha
+        - icon: fontawesome/brands/x-twitter 
+          link:  https://twitter.com/TJNangosha
+        - icon: fontawesome/brands/linkedin 
+          link:  https://www.linkedin.com/in/trevor-james-nangosha-983572214/
+    generator: false
+nav:
+    - Home: index.md
+    - Projects: projects.md
+    - Resume: resume.md
+    - Blog: blog/index.md
+extra_css:
+    - stylesheets/styles.css
+  

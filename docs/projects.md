@@ -1,14 +1,20 @@
-### <div align="center">TREVOR JAMES NANGOSHA</div>
-### <div align="center">SOFTWARE ENGINEER</div>
-### <div align="center">trevornangosha16@gmail.com   +256(0)-706-670-117   <a href="https://twiiter.com/TJNangosha"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/></a>   <a href="https://linkedin.com/in/trevor-james-nangosha-983572214"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</div>
+---
+hide:
+    - navigation
+    - toc
+---
 
-***
+# Here's a list of some interesting projects that I have worked on
 
-<ins>**Education**</ins> - Makerere University(B.S. Software Engineering) - January, 2022 -> Present  
-<ins>**Skills**</ins> - NodeJS, Python, Express, MySQL, Git, HTML/CSS, ReactJS, Kotlin, C/C++, Java
+#### <a href="https://github.com/trevor-james-nangosha/sqlite_driver">sqlite_driver</a>
+Technologies: sqlite, python
 
-### PERSONAL PROJECTS
+Build a python library that can be used to talk to the sqlite embedded database system. Specification was got from the PEP 249. It allows for features like transaction management, concurrency control etc.
+
+#### <a href="https://github.com/trevor-james-nangosha/vault">Vault</a>
+Technologies: Kotlin, Android, Azure Functions, Azure Storage, Auth etc.
+
+Vault is my personal cloud backup mobile app that I use on a daily. Think of it like Google Drive or OneDrive. It has all features ranging from multi-device access, sharing, archiving files etc. Feel free to check it out.
 
 #### <a href="https://github.com/trevor-james-nangosha/Jott">Jottt</a>
 Technologies: React, Electron, SQLite, Google Cloud Platform (GCP), REST, Express, Github Actions, TDD
@@ -23,15 +29,4 @@ Developed an advanced SmartHome Android app, with a team using Kotlin, with seam
 Technologies: Laravel, PHP, HTML, CSS, MySQL, Github Actions
 
 Contributed to the development of a class project—a Vehicle Parking Management System. Utilized Laravel, PHP, HTML, CSS, and MySQL to create an intuitive web application for parking owners. This app allows users to manage the cars in their space, billing, print parking histories etc. Responsibilities included database design, feature development, bug fixing, and testing. Delivered a practical and functional solution, showcasing strong teamwork and technical skills.
-
-
-### NOTABLE OPEN SOURCE CONTRIBUTIONS
-<a href="https://github.com/google/pytype/pull/1419">#1419 - Added support for python scripts to be checked by the Pytype type analyser.</a>
-
-### COMMUNITIES
-Open Source Community Africa(OSCA), PyKla, JsKla
-
-
-
-
 
