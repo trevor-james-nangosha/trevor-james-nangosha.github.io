@@ -12,7 +12,7 @@ theme:
         - navigation.indexes
 plugins:
     - blog:
-          draft: true
+          draft: false
 markdown_extensions: 
     - meta
 extra:

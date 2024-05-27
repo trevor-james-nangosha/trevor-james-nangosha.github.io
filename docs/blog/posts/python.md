@@ -1,7 +1,7 @@
 ---
 draft: true 
 date: 2024-01-31 
-categories: [python, code]
+categories: [python]
 authors: [nangosha]
 ---
 
