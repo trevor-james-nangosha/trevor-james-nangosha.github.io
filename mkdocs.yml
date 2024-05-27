@@ -27,7 +27,8 @@ nav:
     - Home: index.md
     - Projects: projects.md
     - Resume: resume.md
-    - Blog: blog/index.md
+    - Blog:
+        - blog/index.md
 extra_css:
     - stylesheets/styles.css
   

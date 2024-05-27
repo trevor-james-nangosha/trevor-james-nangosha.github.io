@@ -4,7 +4,7 @@ hide:
     - toc
 ---
 
-# Here's a list of some interesting projects that I have worked on
+<!-- # Here's a list of some interesting projects that I have worked on
 
 #### <a href="https://github.com/trevor-james-nangosha/sqlite_driver">sqlite_driver</a>
 Technologies: sqlite, python
@@ -29,4 +29,4 @@ Developed an advanced SmartHome Android app, with a team using Kotlin, with seam
 Technologies: Laravel, PHP, HTML, CSS, MySQL, Github Actions
 
 Contributed to the development of a class project—a Vehicle Parking Management System. Utilized Laravel, PHP, HTML, CSS, and MySQL to create an intuitive web application for parking owners. This app allows users to manage the cars in their space, billing, print parking histories etc. Responsibilities included database design, feature development, bug fixing, and testing. Delivered a practical and functional solution, showcasing strong teamwork and technical skills.
-
+ -->
