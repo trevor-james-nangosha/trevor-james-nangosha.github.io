@@ -8,11 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://trevor-james-nangosha.github.io/blog/2024/05/27/internship/">
+        <link rel="canonical" href="https://trevor-james-nangosha.github.io/blog/2024/05/31/week-1-api-mocking/">
       
       
+        <link rel="prev" href="../../27/internship/">
       
-        <link rel="next" href="../../31/week-1-api-mocking/">
       
       
       <link rel="icon" href="https://avatars.githubusercontent.com/u/75243400?s=400&u=a13b46fb04fe5960e72f9b1fbb5eb735e0f4a1fb&v=4">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Internship - Trevor James Nangosha</title>
+        <title>Week 1: API Mocking - Trevor James Nangosha</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#internship" class="md-skip">
+        <a href="#week-1-api-mocking" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Internship
+              Week 1: API Mocking
             
           </span>
         </div>
@@ -538,18 +538,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#a-little-background" class="md-nav__link">
+  <a href="#what-are-the-benefits-of-api-mocking" class="md-nav__link">
     <span class="md-ellipsis">
-      A little background.
+      What are the benefits of API mocking?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#weekly-blog-posts" class="md-nav__link">
+  <a href="#what-are-some-api-mocking-tools" class="md-nav__link">
     <span class="md-ellipsis">
-      Weekly blog posts
+      What are some API mocking tools?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enough-with-the-literature-let-us-look-at-a-simple-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enough with the literature, let us look at a simple example!
     </span>
   </a>
   
@@ -611,7 +620,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-05-27 00:00:00" class="md-ellipsis">May 27, 2024</time>
+                        <time datetime="2024-05-31 00:00:00" class="md-ellipsis">May 31, 2024</time>
                       </div>
                     </li>
                     
@@ -633,7 +642,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -653,15 +662,80 @@
         
 
 
-<h1 id="internship">Internship</h1>
-<p>I am pleased to share that I will be starting my internship at <strong>Bodastage Solutions</strong>, and it will be running for at least 8 weeks. I will be documenting my progress over that time and providing a status update at the end of every week, most importantly the different challenges I face and how to fix them. I hope that at the end of it all, this internship will turn out to be a wonderful experience.</p>
-<p><strong>Primary mentors</strong>: Emmanuel Robert Ssebagala, Patricia Atungire Ssebagala</p>
+<h1 id="week-1-api-mocking">Week 1: API Mocking</h1>
+<p>Imagine you were working on a frontend team and you needed a given API service so bad. To your disappointment, the service is still being built by the backend team and it will not be ready anytime soon. Actually, it could so happen that the service is down. So you think to yourself: How do I get around this? Enter API mocking!!</p>
 <!-- more -->
-
-<h2 id="a-little-background">A little background.</h2>
-<p><a href="https://www.bodastage.com">Bodastage Solutions</a> is a software company that makes top products for different domains including agriculture, education, telecommunications etc.</p>
-<h2 id="weekly-blog-posts">Weekly blog posts</h2>
-<p><a href="../../31/week-1-api-mocking/">Week 1 (27th May - 3rd June)</a></p>
+<p>API mocking is a development approach that involves mimicking the behavior of an API, to allow you to test and develop applications without relying on real data. It enables you to create realistic examples to simulate the expected response of an API. It also allows one to decouple the frontend development from the API development.</p>
+<h3 id="what-are-the-benefits-of-api-mocking">What are the benefits of API mocking?</h3>
+<ol>
+<li>
+<p><strong>Faster development times</strong> - Let’s say you’re building against an API service that has yet to be created. Without mocking, you would need to wait until the real data has been provided. This slows down the development of your application. By providing developers with a mocked environment to test their code and test data, they can quickly find bugs, fix them, and optimize your systems.</p>
+</li>
+<li>
+<p><strong>Cost-effectiveness</strong> - Third party API providers normally charge for their services at different price plans. Creating a mock API can be an economically feasible option if the team does not want to incur additional expenses, especially during the development stages.</p>
+</li>
+<li>
+<p><strong>Privacy &amp; security</strong> - API mocking happens in the local environment, which provides an added level of security and privacy especially when working with sensitive data(such as user credentials and records). With API mocking, developers are working with fake data, reducing the risk of accessing sensitive information or leaking private data.</p>
+</li>
+</ol>
+<h3 id="what-are-some-api-mocking-tools">What are some API mocking tools?</h3>
+<p>Common mocking tools include <strong>Postman</strong>, <strong>Mock Service Worker</strong>, <strong>WireMock</strong>, <strong>json-server</strong> etc.</p>
+<h3 id="enough-with-the-literature-let-us-look-at-a-simple-example">Enough with the literature, let us look at a simple example!</h3>
+<p>For this example, we shall be using <strong>Mock Service Worker</strong> since I think it is very simple to understand. Most of their docs can be found <a href="https://mswjs.io/">here.</a></p>
+<p>We have an endpoint <code>GET https://api.nangosha.com/user</code> that we would like to mock and it returns the data below. Of course this endpoint does not exist but with mocking, we shall show that this will work.</p>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">   </span><span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Trevor James Nangosha&quot;</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">   </span><span class="s2">&quot;message&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;To be or not to be!&quot;</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">   </span><span class="s2">&quot;status&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;success&quot;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</span></code></pre></div>
+<ul>
+<li>Install the dependency</li>
+</ul>
+<div class="language-bash highlight"><span class="filename">install</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># using npm....</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>npm<span class="w"> </span>install<span class="w"> </span>msw@latest<span class="w"> </span>--save-dev
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1">#....or using yarn</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>yarn<span class="w"> </span>add<span class="w"> </span>-D<span class="w"> </span>msw
+</span></code></pre></div>
+<ul>
+<li>Define a request handler that will be in charge of mocking our endpoint</li>
+</ul>
+<div class="language-js highlight"><span class="filename">handlers.js</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">http</span><span class="p">,</span><span class="w"> </span><span class="nx">HttpResponse</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;msw&#39;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">export</span><span class="w"> </span><span class="kd">const</span><span class="w"> </span><span class="nx">handlers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="nx">http</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;https://api.nangosha.com/user&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">HttpResponse</span><span class="p">.</span><span class="nx">json</span><span class="p">({</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">      </span><span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Trevor James Nangosha&quot;</span><span class="p">,</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">      </span><span class="s2">&quot;message&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;To be or not to be!&quot;</span><span class="p">,</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">      </span><span class="s2">&quot;status&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;success&quot;</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="p">})</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">  </span><span class="p">}),</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="p">]</span>
+</span></code></pre></div>
+<ul>
+<li>We can then make calls to our mocked API. The server will listen to all calls to our endpoint and return our custom response.</li>
+</ul>
+<div class="language-js highlight"><span class="filename">server.js</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">setupServer</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;msw/node&#39;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">handlers</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;./handlers&#39;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="kd">const</span><span class="w"> </span><span class="nx">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">setupServer</span><span class="p">(...</span><span class="nx">handlers</span><span class="p">)</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nx">server</span><span class="p">.</span><span class="nx">listen</span><span class="p">()</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="k">async</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="nx">app</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://api.nangosha.com/user&#39;</span><span class="p">)</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">()</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">user</span><span class="p">)</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="p">}</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="nx">app</span><span class="p">()</span>
+</span></code></pre></div>
+<ul>
+<li>Run the application. This will return and print the mocked response without actually making a network request.</li>
+</ul>
+<div class="language-bash highlight"><span class="filename">run</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>node<span class="w"> </span>server.js
+</span></code></pre></div>
+<p>Voilà, as simple as that! We are done making our first API mock.</p>
 
 
 
