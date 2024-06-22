@@ -329,4 +329,4 @@ Now you can use your package by running by running `npm i volume-ui` just like a
 
 ## What's next?
 
-In next week's blog post, we shall extend our library to include a custom `Card` component similar to that found in Boostrap and also add basic tests to our project. See you then!!👋🏿👋🏿
+In next week's blog post, we shall extend our library to include a custom `Card` component similar to that found in Boostrap. <!-- We shalll also add basic tests to our project. --> See you then!!👋🏿👋🏿
