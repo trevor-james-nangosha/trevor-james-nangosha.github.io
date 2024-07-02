@@ -2,7 +2,7 @@
 date: 2024-06-28
 categories: [Internship]
 authors: [nangosha]
-draft: true
+draft: false
 ---
 
 # Week 5: How to add analytics to a website
