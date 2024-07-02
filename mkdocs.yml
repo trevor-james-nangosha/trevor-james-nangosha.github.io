@@ -3,6 +3,7 @@ site_url: https://trevor-james-nangosha.github.io
 copyright: Copyright &copy; 2024 Trevor James Nangosha
 theme:
     name: material
+    custom_dir: overrides
     logo: https://avatars.githubusercontent.com/u/75243400?s=400&u=a13b46fb04fe5960e72f9b1fbb5eb735e0f4a1fb&v=4
     favicon: https://avatars.githubusercontent.com/u/75243400?s=400&u=a13b46fb04fe5960e72f9b1fbb5eb735e0f4a1fb&v=4
     features:
@@ -43,6 +44,7 @@ nav:
         - blog/index.md
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  # - javascripts/extra.js
   - stylesheets/highlight.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
