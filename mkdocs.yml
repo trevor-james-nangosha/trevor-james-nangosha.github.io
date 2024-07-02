@@ -32,6 +32,9 @@ extra:
         - icon: fontawesome/brands/linkedin 
           link:  https://www.linkedin.com/in/trevor-james-nangosha-983572214/
     generator: false
+    analytics:
+      provider: google
+      property: G-GNG4PJ8C5Z
 nav:
     - Home: index.md
     - Projects: projects.md
